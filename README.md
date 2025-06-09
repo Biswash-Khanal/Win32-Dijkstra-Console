@@ -40,3 +40,32 @@ Run the executable and follow the on-screen menu to:
 - N×N adjacency matrix representing distances.
 
 Example:
+3
+A B C
+0 1 2
+1 0 3
+3 2 0
+
+---
+
+## Dependencies
+
+- Windows OS (for Win32 console color and beep functionality).  
+- C++ compiler with Windows API support.
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## Contact
+
+For questions or feedback, contact me at [biswashkhanal67@gmail.com](mailto:biswashkhanal67@gmail.com).
+
+---
+
+
+
