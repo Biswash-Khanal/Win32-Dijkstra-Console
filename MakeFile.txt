@@ -1,0 +1,19 @@
+# Compiler
+CC = cl
+
+# Compiler flags: /EHsc for C++ exceptions, /W4 for warnings level 4, /Fe to specify output exe
+CFLAGS = /EHsc /W4
+
+# Target executable name
+TARGET = DijkstraPathFinder.exe
+
+# Source files
+SRCS = main.cpp
+
+all: $(TARGET)
+
+$(TARGET): $(SRCS)
+	$(CC) $(CFLAGS) $(SRCS) /Fe$(TARGET)
+
+clean:
+	del $(TARGET) *.obj *.exe
